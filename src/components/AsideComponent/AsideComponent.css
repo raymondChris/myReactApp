@@ -1,0 +1,13 @@
+.AsideComponent {
+    color: white;
+    background-color: #282c34;
+    border: 2px solid green;
+    width: 25%;
+    float: left;
+    height: 80vh;
+    text-align: center;
+}
+
+.AsideComponent p {
+    margin-bottom: 6px;
+}
