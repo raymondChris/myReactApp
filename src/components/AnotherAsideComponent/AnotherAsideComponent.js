@@ -7,6 +7,7 @@ const AnotherAsideComponent = () => {
             <h4>Another Aside Component</h4>
             <p>Id</p>
             <input/>
+            <button>OK</button>
         </div>
     );
 }

@@ -8,20 +8,20 @@ import AnotherAsideComponent from './components/AnotherAsideComponent/AnotherAsi
 
 class App extends Component {
   state = {
-    anotherSideComponent : false,
+    anotherAsideComponent : false,
     asideComponentWindow : false,
   }
 
   formAsideHandler = (event) => {
     const prova = {...this.state};
     switch (event.target.value) {
-      case 'a' : console.log(prova.asideComponentWindow + " e poi " + prova.anotherSideComponent)
+      case 'a' : console.log(prova.asideComponentWindow + " e poi " + prova.anotherAsideComponent)
                   this.setState({asideComponentWindow: !prova.asideComponentWindow,
-                                anotherSideComponent: false});
+                                anotherAsideComponent: false});
                   break;
       case 'b' : this.setState({asideComponentWindow: false,
-                                anotherSideComponent: !prova.anotherSideComponent});
-                    console.log(this.state.anotherSideComponent);
+                                anotherAsideComponent: !prova.anotherAsideComponent});
+                    console.log(this.state.anotherAsideComponent);
                   break;
       default:
         alert('come?');
@@ -30,7 +30,7 @@ class App extends Component {
   };
 
   whichAsideHander = () => {
-    if ( !this.state.asideComponentWindow && !this.state.anotherSideComponent) {
+    if ( !this.state.asideComponentWindow && !this.state.anotherAsideComponent) {
       return null;
     } else {
       if (this.state.asideComponentWindow) {

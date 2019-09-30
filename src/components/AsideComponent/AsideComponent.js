@@ -9,6 +9,7 @@ const AsideComponent = () => {
             <input/>
             <p>Age</p>
             <input/>
+            <button>OK</button>
         </div>
     );
 }

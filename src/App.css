@@ -1,3 +1,8 @@
-
-
-
+.App button {
+    background-color: greenyellow;
+    border: 1px solid darkgreen;
+    margin: 6px;
+    width: 80px;
+    font-weight: bold;
+    padding: 3px;
+}
