@@ -1,4 +1,4 @@
-.AsideComponent {
+.AnotherAsideComponent {
     color: white;
     background-color: #282c34;
     border: 2px solid green;
@@ -8,10 +8,10 @@
     text-align: center;
 }
 
-.AsideComponent p {
+.AnotherAsideComponent p {
     margin-bottom: 6px;
 }
 
-.AsideComponent input {
+.AnotherAsideComponent input {
     width: 100px;
 }
