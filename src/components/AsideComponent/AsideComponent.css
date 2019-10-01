@@ -6,6 +6,9 @@
     float: left;
     height: 80vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .AsideComponent p {
@@ -13,7 +16,7 @@
 }
 
 .AsideComponent input {
-    width: 100px;
+    width: 150px;
 }
 
 .AsideComponent button {
