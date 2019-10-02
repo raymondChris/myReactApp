@@ -9,3 +9,11 @@
     height: auto;
     text-align: center;
 }
+
+.ContainerCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}

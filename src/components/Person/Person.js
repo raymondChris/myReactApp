@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Person.css';
 
-class Person extends Component {
-    render () {
+const Person = (props) => {
         return (
             <div className="cardPerson">
-                <p>Mi chiamo {this.props.info.name}</p>
-                <p>E ho {this.props.info.age} anni</p>
+                <p>Mi chiamo {props.info.name}</p>
+                <p>E ho {props.info.age} anni</p>
             </div>
         );
-    }
+    
 }
 
 export default Person;

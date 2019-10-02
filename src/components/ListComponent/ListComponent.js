@@ -18,7 +18,9 @@ class ListComponent extends Component {
         return(
             <div className="ListComponent">
                 <h4>List Component</h4>
-                {person}
+                <div className="ContainerCard">
+                    {person}
+                </div>
             </div>
         );
     }
